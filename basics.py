@@ -1,4 +1,6 @@
 import random
+# from django.db import models
+
 #To run 'python basics.py'
 
 #console.log
@@ -57,3 +59,8 @@ if random_number < 5 or random_number2 < 5:
 
 if not random_number > 5:
     print("first number is too low")
+
+
+# for loop
+for l in range(5):
+    print(l)
